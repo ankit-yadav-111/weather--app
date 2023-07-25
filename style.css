@@ -1,0 +1,58 @@
+
+*{
+     box-sizing: border-box; */
+    
+}
+
+body {
+    background:url('https://images.unsplash.com/photo-1621274403997-37aace184f49?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1');
+   background-size: cover;
+   background-repeat: no-repeat;
+   overflow: hidden;
+
+    font-size: 16px;
+    font-family: "poppins", sans-serif;
+    
+}
+
+p{
+    color:white;
+}
+h3{color:white;
+    font-weight: bold;
+}
+.forecast{
+    background: rgba(24,24,27,0.6);
+    font-size: 0.9em;
+}
+span{
+    color:white;
+    font-size: 1em;
+}
+li:hover{
+    background-color: lightslategray;
+    text-decoration: underline;
+}
+.pt-1{color:white;
+
+}
+#search-button {
+    background-color:rgba(24,24,27,0.6) ;
+}
+
+#clear-history{
+    border-color: white;
+    background-color:rgba(24,24,27,0.6) ;
+}
+#current-weather{
+    background:rgba(24,24,27,0.6) ;
+}
+.forecast:hover{
+    transform: scale(1.3);
+}
+#future-weather{
+    bottom: 0px;
+}
+.five{
+    bottom:auto;
+}
